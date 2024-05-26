@@ -2,12 +2,12 @@ This project is a calendar application with both back-end and front-end componen
 providing RESTful services for various calendar operations, while the front-end which is a different repo is developed using Angular to offer a user-friendly interface.
 
 Back-End Setup
-Prerequisites
+#Prerequisites
 
 Java 11 or higher
 Maven
-IDE (IntelliJ, Eclipse, etc.)
-Project Structure
+IDE (IntelliJ, Eclipse)
+#Project Structure
 
 CalendarCalculator.java: Contains the core logic for calendar calculations.
 CalendarController.java: RESTful controller exposing calendar operations.
@@ -20,7 +20,7 @@ Building and Running
 mvn clean install
 mvn spring-boot:run
 ```
-RESTful Endpoints
+#RESTful Endpoints
 
 GET /app/calendar/add?date1={date1}&date2={date2}: Adds days to a given date.
 GET /app/calendar/subtract?date1={date1}&date2={date2}: Subtracts days from a given date.
