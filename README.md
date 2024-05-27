@@ -37,7 +37,8 @@ GET /app/calendar/printmonth?date={date}: Prints the calendar month for a given 
 GET /app/calendar/countbetween?startDate={startDate}&endDate={endDate}&unit={unit}: Counts the number of units between two dates.
 
 
-##Steps to Build and Deploy
+## Steps to Build and Deploy
+
 1 Build Docker Image:
 Navigate to the root directory of your project (where the Dockerfile is located) and run:
 
