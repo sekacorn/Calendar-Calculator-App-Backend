@@ -1,8 +1,8 @@
 This project is a calendar application with both back-end and front-end components. The back-end is built with Spring Boot, 
 providing RESTful services for various calendar operations, while the front-end which is a different repo is developed using Angular to offer a user-friendly interface.
 
-##Back-End Setup
-###Prerequisites
+## Back-End Setup
+## Prerequisites
 
 Java 11 or higher
 Maven
